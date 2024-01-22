@@ -166,6 +166,8 @@ def main() -> None:
 
     logger.info("Starting application")
     application.run_polling()
+from keep_alive import keep_alive
+keep_alive()
 
 
 if __name__ == "__main__":
